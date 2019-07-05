@@ -20,9 +20,9 @@ function dragStart(e){
 }
 
 function dragEnd(e){
-    e.preventDefault();
-    console.log(e.target.className);
-    this.className +=e.target.className;
+    // e.preventDefault();
+    // console.log(e.target.className);
+    // this.className +=e.target.className;
 }
 
 function dragOver(e){
